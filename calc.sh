@@ -1,7 +1,7 @@
 #!/bin/bash
-A=1
+A=3
 B=2
-C=3
+C=1
 
 for i in {1..10}
 do
