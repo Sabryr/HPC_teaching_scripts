@@ -14,4 +14,4 @@ module load SciPy-bundle/2021.05-foss-2021a
 
 # Execute the task
 
-srun python3 pi-mpi.py 10000
+srun python3 pi-mpi.py 1000000

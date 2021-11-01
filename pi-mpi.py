@@ -119,7 +119,8 @@ if __name__ == '__main__':
         accuracy = 100*(1-my_pi/pi_specific)
 
         # Uncomment either summary format for verbose or terse output
-        # summary = "{:d} core(s), {:d} samples, {:f} MiB memory, {:f} seconds, {:f}% error"
-        summary = "{:d},{:d},{:f},{:f},{:f}"
+        summary = "{:d} core(s), {:d} samples, {:f} MiB memory, {:f} seconds, {:f}% error"
+        #summary = "{:d},{:d},{:f},{:f},{:f}"
         print(summary.format(cpus, n_samples, memory_required, elapsed_time,
                             accuracy))
+        print("pi=",my_pi)
